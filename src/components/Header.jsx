@@ -24,6 +24,11 @@ export const Header = () => {
             <span>attractions</span>
           </div>
         </div>
+        <h2 className="header__title">A lifetime of discount? It's Genius</h2>
+        <p className="header__desc">
+          Get rewarded for your travels - unlock instan saving of 10% or more with a free Booking App Account
+        </p>
+        <button className="header__btn">Signin / Register</button>
       </div>
     </div>
   );

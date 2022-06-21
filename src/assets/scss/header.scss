@@ -71,4 +71,42 @@
       }
     }
   }
+
+  &__title {
+    margin-top: 46px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 50px;
+
+    @include responsive(md){
+      line-height: 38px;
+    }
+  }
+
+  &__desc {
+    margin-top: 24px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+
+    @include responsive(md){
+      line-height: 24px;
+    }
+  }
+
+  &__btn {
+    background: $secondaryColor;
+    color: #fff;
+    font-weight: 500;
+    padding: 14px 28px;
+    border: none;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: background 0.4s;
+
+    &:hover{
+      background: darken($secondaryColor, 2%);
+    }
+  }
 }
